@@ -22,7 +22,7 @@ st.title("IMAGE GENERATION APP")
 uploaded_file = st.file_uploader("Upload an input image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
-    st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
+    st.image(uploaded_file, caption="Uploaded Image", width=700)
 
 text_input = st.text_input("Enter your prompt")
 generate = st.button("Generate Image")
