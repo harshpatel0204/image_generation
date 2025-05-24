@@ -51,7 +51,7 @@ if st.session_state.generated_image is not None:
     st.image(
         st.session_state.generated_image,
         caption="Generated Image",
-        use_container_width=True,
+        width=700,
     )
 
     # Prepare download
